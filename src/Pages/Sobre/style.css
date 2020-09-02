@@ -1,0 +1,29 @@
+.box {
+  padding: 50px 90px;
+  font-size: 1.4em;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.who {
+  background-color: #4DB388;
+}
+
+.why {
+  background-color: #FF696D;
+}
+
+.icons {
+  height: 100px;
+  width: 100px;
+}
+
+.title-box {
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.icon-box {
+  text-align: right;
+  margin-top: 30px;
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.title {
+  background-color: #302045;
+  color: #4DB388;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 35px;
+  font-size: 3.5em;
+}
+
+.header-box {
+  background-color: #302045;
+}

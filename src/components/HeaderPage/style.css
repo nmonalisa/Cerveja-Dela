@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #302045;
+  height: 150px;
+  padding-left: 40px;
+}
+
+.menuImg-box {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.menuImg {
+  height: 50%;
+  width: 18%;
+}
+
+.logoImg-box {
+  height: 230px;
+  position: absolute;
+  top: 40px;
+  left: 35%;
+}
+
+.logoImg {
+  height: 100%;
+  width: 290px;
+}
