@@ -1,18 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Menu from '../Menu/Menu'
 import './style.css';
+import { Link } from 'react-router-dom';
 
 
 function HeaderPage() {
+  const [showMenu, setShowMenu] = useState(false);
+  const showMenuOnClick = () => setShowMenu(true);
+  const closeMenuOnClick = () => setShowMenu(false)
+
   return (
     <>
-      <header>
-        <figure className={'menuImg-box'}>
-          <img className={'menuImg'} src={require('../../assets/menu.png')} alt='Menu' />
+      <header className='header'>
+        <figure className='menuImg-box'>
+          <img
+            className='menuImg'
+            onClick={() => showMenuOnClick()}
+            src={require('../../assets/menu.png')}
+            alt='Menu' />
         </figure>
-        <figure className={'logoImg-box'}>
-          <img className={'logoImg'} src={require('../../assets/logo_with-circle.png')} alt='Logotype' />
+        <figure className='logoImg-box'>
+          <Link to='/'>
+            <img className='logoImg' src={require('../../assets/logo_with-circle.png')} alt='Logotype' />
+          </Link>
         </figure>
       </header>
+      {showMenu && <Menu closeMenuOnClick={closeMenuOnClick} />}
     </>
   )
 }

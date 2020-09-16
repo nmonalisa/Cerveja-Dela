@@ -58,7 +58,7 @@ function Cervejas() {
             temperature='3-4°C'
             ibuImage={require('../../assets/ibu-12.png')}
             tableBeer={require('../../assets/periodic-table-lager.png')}
-            harmony={'saladas, peixes brancos grelhados, aves equeijos suaves'}
+            harmony={'saladas, peixes grelhados, aves e queijos suaves'}
           />
         </section>
       </main>

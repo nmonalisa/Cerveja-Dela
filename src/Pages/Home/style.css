@@ -1,19 +1,18 @@
 .main-container {
-  border: 2px solid black;
   padding: 30px;
 }
 
 .cervejas-btn {
   background-color: #A1124D;
   color: #E5E5E5;
-  font-size: 2.5em;
+  font-size: 3em;
   border: none;
   font-weight: bold;
-  width: 50%;
-  height: 100px;
+  width: 70%;
+  height: 120px;
   border-radius: 5px;
   margin-bottom: 50px;
-  margin-top: 65%;
+  margin-top: 70%;
 }
 
 .titulo {

@@ -20,23 +20,14 @@ function Home() {
         <figure className='hop-img-box'>
           <img className={'hop-img'} src={require('../../assets/beer-cut.png')} alt='Foto lúpulo' />
         </figure>
-        {/* 
-        <figure>
-          <img src='' alt='Foto das garrafas' />
-        </figure> */}
-
         <nav className={'btn-box'}>
-          <Link to='/sobre'>
+          <Link to='/cervejas'>
             <button className={'cervejas-btn'}>
               Conheça as cervejas
             </button>
           </Link>
         </nav>
       </main>
-
-      <footer>
-        Rodapé
-      </footer>
     </>
   )
 };

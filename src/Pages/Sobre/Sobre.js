@@ -26,9 +26,6 @@ function Sobre() {
           <img src={require('../../assets/target.png')} alt='Alvo' className={'icons'} />
         </figure>
       </section>
-      <footer>
-        Rodapé
-      </footer>
     </>
   )
 };

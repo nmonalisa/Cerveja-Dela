@@ -1,0 +1,102 @@
+.menu-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65vw;
+  height: 100%;
+  background-color: #302045;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-close {
+  color: #A1124D;
+  text-align: right;
+  font-size: 5rem;
+  padding: 20px;
+}
+
+.menu-logo {
+  width: 70%;
+  border: 1px solid red;
+}
+
+.menu-text {
+  margin: 6% 10% 10% 10%;
+}
+
+.menu-text div {
+  margin-bottom: 25px;
+}
+
+.menu-text-item {
+  color: #4DB388;
+  text-decoration: none;
+}
+
+.menu-text-border {
+  border-bottom: 2px solid #A1124D;
+  width: 70%;
+}
+
+.menu-slogan {
+  color: #E5E5E5;
+  font-weight: bold;
+  font-style: oblique;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+
+@media only screen and (max-device-width: 350px) {
+  .menu-text div {
+    padding: 25px;
+    font-size: 3.5em;
+  }
+  .menu-slogan {
+    margin-top: 45%;
+  }
+}
+
+@media only screen and (min-device-width: 351px) and (max-device-width: 425px) {
+  .menu-text div {
+    padding: 15px;
+    font-size: 3.0em;
+  }
+  .menu-slogan {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-device-width: 426px) and (max-device-width: 650px) {
+  .menu-close {
+    margin: 10px;
+    font-size: 3rem;
+    padding: 0px;
+  }
+  .menu-logo {
+    width: 50%;
+    position: relative;
+    top: -50px;
+  }
+  .menu-slogan {
+    width: 100%;
+    font-size: 1.9rem;
+    margin: 0;
+    padding: 15px
+  }
+  .menu-text {
+    margin: 0 10%;
+    font-size: 2.5rem;
+  }
+  .menu-text div {
+    margin-bottom: 10%;
+  }
+}
