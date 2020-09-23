@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import MediaItem from '../../components/MediaItem/MediaItem'
+import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
 import './style.css'
 
 function Midia() {
+  //Lógica de botão para voltar ao topo da página!
+  const [showBackToTopBtn, setShowBackToTopBtn] = useState(true)
+  window.onscroll = () => scroll();
+  const scroll = () => {
+    document.documentElement.scrollTop > 50 ?
+      setShowBackToTopBtn(true) :
+      setShowBackToTopBtn(false)
+  }
+
   return (
     <>
       <HeaderPage />
@@ -175,6 +185,7 @@ function Midia() {
             />
           </main>
         </section>
+        {showBackToTopBtn && <BackToTopBtn />}
       </div>
     </>
   )

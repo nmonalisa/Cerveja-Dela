@@ -1,0 +1,18 @@
+.up-arrow-img {
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .up-arrow-img {
+    width: 80px;
+    bottom: 50px;
+    right: 55px;
+  }
+}

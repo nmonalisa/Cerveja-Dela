@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import Rotulo from '../../components/Rotulo/Rotulo'
+import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
 import './style.css';
 
 const description = {
@@ -10,6 +11,15 @@ const description = {
 }
 
 function Cervejas() {
+  //Lógica de botão para voltar ao topo da página!
+  const [showBackToTopBtn, setShowBackToTopBtn] = useState(true)
+  window.onscroll = () => scroll();
+  const scroll = () => {
+    document.documentElement.scrollTop > 50 ?
+      setShowBackToTopBtn(true) :
+      setShowBackToTopBtn(false)
+  }
+
   return (
     <>
       <div className={'header-box'}>
@@ -60,6 +70,7 @@ function Cervejas() {
             harmony={'saladas, peixes grelhados, aves e queijos suaves'}
           />
         </section>
+        {showBackToTopBtn && <BackToTopBtn />}
       </main>
     </>
   )

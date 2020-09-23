@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
+import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
 import './style.css';
 
 
 function Contato() {
+  //Lógica de botão para voltar ao topo da página!
+  const [showBackToTopBtn, setShowBackToTopBtn] = useState(true)
+  window.onscroll = () => scroll();
+  const scroll = () => {
+    document.documentElement.scrollTop > 50 ?
+      setShowBackToTopBtn(true) :
+      setShowBackToTopBtn(false)
+  }
+
+
   return (
     <div >
       <HeaderPage />
@@ -43,6 +54,7 @@ function Contato() {
           </p>
         </aside>
       </section>
+      {showBackToTopBtn && <BackToTopBtn />}
     </div>
   )
 };
