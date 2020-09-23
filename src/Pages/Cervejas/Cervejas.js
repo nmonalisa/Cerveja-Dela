@@ -14,7 +14,6 @@ function Cervejas() {
     <>
       <div className={'header-box'}>
         <HeaderPage />
-        <div className={'title'}>CERVEJAS</div>
       </div>
       <main>
         <section>

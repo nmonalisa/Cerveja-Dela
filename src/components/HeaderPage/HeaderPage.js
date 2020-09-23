@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Menu from '../Menu/Menu'
+import MenuLarge from '../MenuLargeDevice/MenuLargeDevice'
 import './style.css';
 import { Link } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function HeaderPage() {
             <img className='logoImg' src={require('../../assets/logo_with-circle.png')} alt='Logotype' />
           </Link>
         </figure>
+        <MenuLarge />
       </header>
       {showMenu && <Menu closeMenuOnClick={closeMenuOnClick} />}
     </>

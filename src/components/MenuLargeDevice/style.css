@@ -1,0 +1,25 @@
+.links-menu-box {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 20px;
+  font-weight: 500;
+}
+
+.links-item {
+  color: #4DB388;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.margin-l {
+  margin-right: 250px;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .links-menu-box {
+    display: none;
+  }
+}

@@ -7,36 +7,41 @@ function Contato() {
   return (
     <div >
       <HeaderPage />
-      <section className='contacts-box'>
-        <header className='contacts-text'>
-          <p className='contacts-text-item text1'>
+      <section className='contacts-box flex'>
+        <header className='contacts-header'>
+          <p className='contacts-header-p1'>
             FALE COMIGO!
           </p>
-          <p className='text2'>Bianca Vitto</p>
+          <p className='contacts-header-p2'>Se quiser comprar meus produtos fale diretamente comigo nos links abaixo. Entrego para todo o Brasil via Correios!</p>
         </header>
 
-        <main className='icons-media-box'>
-          <div className='icons-media'>
+        <main className='contacts-main'>
+          <div>
             <img
-              className='icons-media-item'
               alt='Logotipo WhatsApp'
               src={require('../../assets/whatsapp.png')} />
-            <span>
+            <p className='contacts-icon-text'>
               (19) 98177-6607
-            </span>
+            </p>
           </div>
 
-          <div className='icons-media'>
+          <div>
             <a href='https://www.instagram.com/cervejadela/' target='new_blank'>
               <img
-                className='icons-media-item'
                 alt='Logotipo Instagram'
                 src={require('../../assets/instagram-sketched.png')}
               />
             </a>
-            <span> @cervejadela</span>
+            <p className='contacts-icon-text'> @cervejadela</p>
           </div>
         </main>
+
+        <aside className='contacts-qrcode'>
+          <img src={require('../../assets/QRCode.jpeg')} alt="QRCode" />
+          <p>
+            Aponte sua câmera para o QRCode acima para abrir a conversa do WhatsApp!
+          </p>
+        </aside>
       </section>
     </div>
   )

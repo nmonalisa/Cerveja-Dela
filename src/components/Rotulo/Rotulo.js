@@ -3,16 +3,23 @@ import './style.css'
 
 function Rotulo(props) {
   return (
-    <>
-      <figure className={'img-box'}>
-        <img className={'cat-img'} src={props.catImg} alt='Rótulo' />
-      </figure>
-      <div className='description-box'>
-        A <span className={'bold'}> Dela {props.typeBeer}</span> {props.description}
-      </div>
-      <p className={'beer-slogan bold'}>
+    <div className='beer-box'>
+
+      <main className='beer-main'>
+        <figure className={'img-box'}>
+          <img className={'cat-img'} src={props.catImg} alt='Rótulo' />
+        </figure>
+        <div className='description-box'>
+          <p className={'beer-slogan bold large-device'}>
+            {props.slogan}
+          </p>
+          A <span className={'bold'}> Dela {props.typeBeer}</span> {props.description}
+        </div>
+      </main>
+      <p className={'beer-slogan bold small-device'}>
         {props.slogan}
       </p>
+
 
       <aside className={'extra-infos'}>
         {/* Copo */}
@@ -69,12 +76,13 @@ function Rotulo(props) {
 
         {/* Harmonização */}
       </aside>
+
       <section className={'harmony-list'}>
         <p>
           Harmonização: {props.harmony}.
         </p>
       </section>
-    </>
+    </div>
   )
 }
 export default Rotulo;

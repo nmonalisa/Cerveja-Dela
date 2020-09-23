@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .menu-close {
@@ -19,7 +20,6 @@
 
 .menu-logo {
   width: 70%;
-  border: 1px solid red;
 }
 
 .menu-text {
@@ -42,23 +42,17 @@
 
 .menu-slogan {
   color: #E5E5E5;
-  font-weight: bold;
   font-style: oblique;
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
-
-
-/* default styles here for older browsers. 
-       I tend to go for a 600px - 960px width max but using percentages
-    */
 
 @media only screen and (max-device-width: 350px) {
   .menu-text div {
     padding: 25px;
-    font-size: 3.5em;
+    font-size: 4em;
   }
   .menu-slogan {
     margin-top: 45%;
@@ -68,35 +62,81 @@
 @media only screen and (min-device-width: 351px) and (max-device-width: 425px) {
   .menu-text div {
     padding: 15px;
-    font-size: 3.0em;
+    font-size: 3.5em;
   }
   .menu-slogan {
     font-size: 2.5em;
   }
 }
 
-@media only screen and (min-device-width: 426px) and (max-device-width: 650px) {
+@media only screen and (min-device-width: 426px) and (max-device-width: 550px) {
+  .menu-close {
+    margin: 10px;
+    font-size: 4rem;
+    padding: 0px;
+  }
+  .menu-logo {
+    width: 60%;
+    position: relative;
+    top: -50px;
+  }
+  .menu-slogan {
+    width: 90%;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .menu-text {
+    margin: 10%;
+    font-size: 3rem;
+  }
+  .menu-text div {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 551px) and (max-device-width: 1023px) {
+  .menu-box {
+    width: 50vw;
+  }
+  .menu-logo {
+    width: 40%;
+  }
   .menu-close {
     margin: 10px;
     font-size: 3rem;
     padding: 0px;
   }
-  .menu-logo {
-    width: 50%;
-    position: relative;
-    top: -50px;
-  }
   .menu-slogan {
-    width: 100%;
-    font-size: 1.9rem;
-    margin: 0;
-    padding: 15px
+    width: 90%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 15px;
   }
   .menu-text {
-    margin: 0 10%;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   .menu-text div {
     margin-bottom: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .menu-text div {
+    margin-bottom: 7%;
+  }
+  .menu-text {
+    font-size: 1.5rem;
+  }
+  .menu-slogan {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .menu-box {
+    display: none;
   }
 }

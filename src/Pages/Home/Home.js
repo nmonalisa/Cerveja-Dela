@@ -17,17 +17,29 @@ function Home() {
           </div>
         </aside>
 
-        <figure className='hop-img-box'>
-          <img className={'hop-img'} src={require('../../assets/beer-cut.png')} alt='Foto lúpulo' />
-        </figure>
+
         <nav className={'btn-box'}>
+          <button className='cervejas-btn btn-empty btn1'>
+            CERVEJAS SAZONAIS
+          </button>
+          <button className='cervejas-btn btn-empty btn2'>
+            CERVEJAS COLABORATIVAS
+          </button>
           <Link to='/cervejas'>
-            <button className={'cervejas-btn'}>
-              Conheça as cervejas
+            <button className='cervejas-btn btn3'>
+              CERVEJAS  DE LINHA
             </button>
           </Link>
         </nav>
       </main>
+
+      <div className='cervejas-img-box'>
+        <img className='cat' src={require('../../assets/cat-opacity-15.png')} alt='Garrafas de cerveja Dela' />
+        <div className='bootle-box'>
+          <img className='bottles' src={require('../../assets/bottles_edited.png')} alt='Garrafas de cerveja Dela' />
+        </div>
+        <img className='atom' src={require('../../assets/physics.png')} alt='Garrafas de cerveja Dela' />
+      </div>
     </>
   )
 };

@@ -1,20 +1,23 @@
 .box {
-  padding: 50px 90px;
-  font-size: 1.4em;
+  padding: 10%;
+  font-size: 2.5em;
   line-height: 1.7;
 }
 
 .who {
-  background-color: #4DB388;
+  background-color: #7CCDAB;
 }
 
 .why {
-  background-color: #FF696D;
+  background-color: #E38385;
+}
+
+.mission {
+  background-color: #F8B654;
 }
 
 .icons {
-  height: 100px;
-  width: 100px;
+  width: 10%;
 }
 
 .title-box {
@@ -23,6 +26,32 @@
 }
 
 .icon-box {
-  text-align: right;
+  text-align: center;
   margin-top: 30px;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .boxes-container {
+    display: flex;
+    overflow: hidden;
+  }
+  .box {
+    padding: 5%;
+    font-size: 1.3em;
+    line-height: 1.7;
+    width: 33.3%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .box {
+    font-size: 1em;
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  .box {
+    font-size: 1.4em;
+  }
 }
