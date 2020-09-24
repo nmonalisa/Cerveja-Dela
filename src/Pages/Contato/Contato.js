@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
 import './style.css';

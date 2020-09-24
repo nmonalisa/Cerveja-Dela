@@ -1,6 +1,20 @@
 {
   "name": "cerveja-dela",
-  "version": "0.1.0",
+  "version": "1.0.0",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/nmonalisa/Cerveja-Dela"
+  },
+  "keywords": [
+    "cerveja Dela",
+    "mulheres",
+    "produção cervejeira",
+    "cerveja artesanal"
+  ],
+  "author": {
+    "name": "Nathalia Monalisa Francisco",
+    "email": "nathaliamonalisa@gmail.com"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
