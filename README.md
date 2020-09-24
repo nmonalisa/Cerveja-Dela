@@ -13,5 +13,6 @@ Acesse o site [aqui](https://cerveja-dela.web.app/)!
 * [Trello](https://trello.com/pt-BR) - gerenciador de projeto
 * [FlatIcon](https://www.flaticon.com/) - ícones utilizados
 
-E não se esqueça que: lugar de mulher é onde ela quiser, inclusive na programação web e na produção cervejeira!
+E não se esqueça que: </br>
+:pushpin: lugar de mulher é onde ela quiser, inclusive na programação web e na produção cervejeira! :pushpin: 
 #WeCanDoIt :muscle: :beers: :raising_hand: 
