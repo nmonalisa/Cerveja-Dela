@@ -14,5 +14,5 @@ Acesse o site [aqui](https://cerveja-dela.web.app/)!
 * [FlatIcon](https://www.flaticon.com/) - ícones utilizados
 
 E não se esqueça que: </br>
-:pushpin: lugar de mulher é onde ela quiser, inclusive na programação web e na produção cervejeira! :pushpin: 
-#WeCanDoIt :muscle: :beers: :raising_hand: 
+:pushpin: __lugar de mulher é onde ela quiser, inclusive na programação web e na produção cervejeira!__:pushpin: 
+</br>#WeCanDoIt :muscle: :beers: :raising_hand: 
