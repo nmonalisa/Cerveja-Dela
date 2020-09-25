@@ -6,7 +6,7 @@ Acesse o site [aqui](https://cerveja-dela.web.app/)!
 
 
 ## Demonstração do projeto
-(Por favor, considere a perda de qualidade das cores e resolução dos frames devido à limitações na ferramenta utilizada para gravar o gif!)
+(Por favor, considere a perda de qualidade das cores e resolução dos frames devido à limitações na ferramenta utilizada para gravar o gif!)</br>
 ![Visão do dispositivo móvel](src/assets/demo_dela.gif)
 
 ## Créditos e ferramentas livres utilizadas
