@@ -2,13 +2,10 @@ import React, { useState } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import Rotulo from '../../components/Rotulo/Rotulo'
 import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
+import FooterPage from '../../components/FooterPage/FooterPage'
+import description from './descricaoCervejas'
 import './style.css';
 
-const description = {
-  weiss: `é uma cerveja de trigo, pouco amarga e de coloração turva. Traz sabor e aroma de cravo e banana.`,
-  stout: 'apresenta notas de chocolate amargo com leve toque de café. Sua espuma é espessa e cremosa!',
-  lager: 'não é uma Lager comum. Com adição de gengibre e limão, traz uma experiência leve, refrescante e marcante!'
-}
 
 function Cervejas() {
   //Lógica de botão para voltar ao topo da página!
@@ -31,7 +28,7 @@ function Cervejas() {
             catImg={require('../../assets/rotulo_weiss.png')}
             typeBeer='Weissbier '
             description={description.weiss}
-            slogan='A Clássica'
+            slogan='A Clássica!'
             cupImage={require('../../assets/weissbeer-cup.png')}
             cupName='Weizen'
             temperature='3-5°C'
@@ -72,6 +69,7 @@ function Cervejas() {
         </section>
         {showBackToTopBtn && <BackToTopBtn />}
       </main>
+      <FooterPage />
     </>
   )
 };

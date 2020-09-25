@@ -52,6 +52,11 @@
   filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.3));
 }
 
+.cervejas-btn-soon {
+  color: #A1124D;
+  font-size: 0.9em;
+}
+
 .btn-empty {
   border: 2px solid #A1124D;
   background-color: white;
@@ -72,8 +77,8 @@
 
 .btn3 {
   position: relative;
-  right: 80px;
-  padding: 35px 65px;
+  right: 60px;
+  padding: 50px 85px;
   z-index: -1;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import HeaderPage from '../../components/HeaderPage/HeaderPage'
+import HeaderPage from '../../components/HeaderPage/HeaderPage';
+import FooterPage from '../../components/FooterPage/FooterPage'
 import './style.css'
 import { Link } from 'react-router-dom';
 
@@ -21,9 +22,11 @@ function Home() {
         <nav className={'btn-box'}>
           <button className='cervejas-btn btn-empty btn1'>
             CERVEJAS SAZONAIS
+            <div className='cervejas-btn-soon'>Em breve!</div>
           </button>
           <button className='cervejas-btn btn-empty btn2'>
             CERVEJAS COLABORATIVAS
+            <div className='cervejas-btn-soon'>Em breve!</div>
           </button>
           <Link to='/cervejas'>
             <button className='cervejas-btn btn3'>
@@ -40,6 +43,7 @@ function Home() {
         </div>
         <img className='atom' src={require('../../assets/physics.png')} alt='Garrafas de cerveja Dela' />
       </div>
+      <FooterPage />
     </>
   )
 };

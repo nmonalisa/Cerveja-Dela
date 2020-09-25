@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import MediaItem from '../../components/MediaItem/MediaItem'
 import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
+import FooterPage from '../../components/FooterPage/FooterPage'
 import './style.css'
 
 function Midia() {
@@ -187,6 +188,7 @@ function Midia() {
         </section>
         {showBackToTopBtn && <BackToTopBtn />}
       </div>
+      <FooterPage />
     </>
   )
 };

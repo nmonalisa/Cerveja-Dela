@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
+import FooterPage from '../../components/FooterPage/FooterPage'
 import './style.css';
 
 
@@ -55,6 +56,7 @@ function Contato() {
         </aside>
       </section>
       {showBackToTopBtn && <BackToTopBtn />}
+      <FooterPage />
     </div>
   )
 };

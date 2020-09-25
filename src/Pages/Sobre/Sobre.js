@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import HeaderPage from '../../components/HeaderPage/HeaderPage'
 import BackToTopBtn from '../../components/BackToTopBtn/BackToTopBtn'
+import FooterPage from '../../components/FooterPage/FooterPage'
 import './style.css'
 
 function Sobre() {
@@ -50,6 +51,7 @@ function Sobre() {
         </section>
       </div>
       {showBackToTopBtn && <BackToTopBtn />}
+      <FooterPage />
     </div>
   )
 };
