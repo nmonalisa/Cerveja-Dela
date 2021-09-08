@@ -1,6 +1,8 @@
 ## Resumo do projeto
 O projeto foi planejado e desenvolvido por mim de forma voluntária para a Cervejaria Dela, uma microcervejaria localicalizada no interior de São Paulo, recém-criada e administrada pela cervejeira e amiga Bianca Vitto. Meu objetivo ao colaborar com esse projeto é participar de iniciativas que impactem positivamente as mulheres e contribuam minimamente para a redução da desigualdade de gênero na nossa sociedade. A aplicação foi desenvolvida em  javascript utilizando a biblioteca ReactJS. O site foi planejado para rodar em dispositivos móveis, levando em consideração que a maior parte do público consumidor do produto utiliza este tipo de dispositivo. Porém, foi executado de maneira responsiva e se adapta bem a dispositivos maiores.
 
+A ideia desse site é servir como um protótipo, uma versão preliminar do que virá a ser o site profissional futuramente, com correções e melhorias (como implementação de e-commerce) desenvolvidas por mim ou por algum profissional mais experiente!
+
 ## Link do projeto
 Acesse o site [aqui](https://cerveja-dela.web.app/)!
 
